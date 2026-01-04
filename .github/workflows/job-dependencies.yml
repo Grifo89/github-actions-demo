@@ -31,7 +31,7 @@ jobs:
     needs: build
     steps:
       - name: Download artifact
-        uses: actions/download-articraft@v4
+        uses: actions/download-artifact@v4
         with:
           name: dist-files
           path: dist
